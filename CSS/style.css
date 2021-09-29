@@ -1,0 +1,38 @@
+body {
+    background: #1a1a1a;
+  }
+
+  #init-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 26px;
+    font-family: 'nunito', sans-serif;
+    color: #fff;
+  }
+
+  #admin {
+    animation: animate 4s ease-in-out forwards;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateY(-800px);
+      color: #fff;
+      
+    }
+    60% {
+      transform: translateY(0);
+      /*opacity: 1;*/
+    }
+    80% {
+      transform: translateY(-100);
+      
+    }
+    100% {
+      transform: translateY(0);
+      color: #6e55fd;
+      /*opacity: 0;*/
+    }
+  }
