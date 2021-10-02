@@ -6,11 +6,14 @@
     
 }
 
+body {
+  background: #1a1a1a;
+}
+
 header { 
   background-image: url('../assets/bg.png');
   height: 100vh;
 }
-
 
 /*NavBar*/
 nav {
@@ -142,10 +145,33 @@ nav {
     }
   }
 
-@media screen and (min-width: 475px) {
+  @media screen and (min-width: 475px) {
     br{
       display: none;
     }
+  }
+
+  @media screen and (max-width: 320px) {
+    header {
+      background-image: url(assets/bgFor320.png);
+      height: 436px;
+    }
+
+    .logo {
+      font-family: 'Nunito', sans-serif;
+      letter-spacing: 3px;
+      color: #6e55fd;
+      font-size: 22px;
+      cursor: pointer;
+    }
+
+    .mobile-menu div {
+      width: 24px;
+      height: 2px;
+      background: #6e55fd;
+      margin: 8px;
+      transition: 0.3s;
+  }
   }
 
   /*Animation Burguer*/
@@ -276,10 +302,10 @@ nav {
 
 a.btn {
   -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
   display: block;
   margin-top: 4%;
   max-width: 200px;
@@ -291,12 +317,12 @@ a.btn {
 
 a.btn {
   color: #6e55fd;
-  box-shadow: #6e55fd 0 0px 0px 2px inset;
+	box-shadow: #6e55fd 0 0px 0px 2px inset;
 }
 
 a.btn:hover {
   color: #ff3e9d;
-  box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
 
 /*Footer*/
