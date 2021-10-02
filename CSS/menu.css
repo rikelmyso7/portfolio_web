@@ -148,6 +148,12 @@ nav {
     }
   }
 
+@media screen and (max-width: 320px) {
+    header {
+      background-image: url(assets/bgFor320.png);
+      height: 436px;
+    }
+
   /*Animation Burguer*/
   @keyframes navLinkFade {
     from {
@@ -212,7 +218,7 @@ nav {
 /*About*/
 .about {
   width: 100%;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
