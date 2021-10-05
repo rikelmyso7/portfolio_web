@@ -80,8 +80,59 @@ nav {
   transition: color .4s ease;
 }
 
-.social_media_introduction a:hover{
-  color: #6e55fd;
+.social_media_introduction .face:hover{
+  background: #026ae3;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #026ae3,
+              0 0 25px #026ae3,
+              0 0 50px #026ae3,
+              0 0 100px #026ae3;
+}
+
+.social_media_introduction .linke:hover{
+  background: #fff401;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #fff401,
+              0 0 25px #fff401,
+              0 0 50px #fff401,
+              0 0 100px #fff401;
+}
+
+.social_media_introduction .art:hover{
+  background: #13aff0;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #13aff0,
+              0 0 25px #13aff0,
+              0 0 50px #13aff0,
+              0 0 100px #13aff0;
+}
+
+.social_media_introduction .insta:hover{
+  background: #6e55fd;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #6e55fd,
+              0 0 25px #6e55fd,
+              0 0 50px #6e55fd,
+              0 0 100px #6e55fd;
+}
+
+.social_media_introduction .pinte:hover{
+  background: #e60023;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #e60023,
+              0 0 25px #e60023,
+              0 0 50px #e60023,
+              0 0 100px #e60023;
 }
 
 #one {
@@ -388,8 +439,59 @@ footer {
   transition: color .4s ease;
 }
 
-.social_media a:hover{
-  color: #6e55fd;
+.social_media .face:hover{
+  background: #026ae3;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #026ae3,
+              0 0 25px #026ae3,
+              0 0 50px #026ae3,
+              0 0 100px #026ae3;
+}
+
+.social_media .linke:hover{
+  background: #fff401;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #fff401,
+              0 0 25px #fff401,
+              0 0 50px #fff401,
+              0 0 100px #fff401;
+}
+
+.social_media .art:hover{
+  background: #13aff0;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #13aff0,
+              0 0 25px #13aff0,
+              0 0 50px #13aff0,
+              0 0 100px #13aff0;
+}
+
+.social_media .insta:hover{
+  background: #6e55fd;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #6e55fd,
+              0 0 25px #6e55fd,
+              0 0 50px #6e55fd,
+              0 0 100px #6e55fd;
+}
+
+.social_media .pinte:hover{
+  background: #e60023;
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #e60023,
+              0 0 25px #e60023,
+              0 0 50px #e60023,
+              0 0 100px #e60023;
 }
 
 .footer_bottom {
