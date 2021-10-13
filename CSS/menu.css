@@ -210,9 +210,8 @@ nav {
 
   @media screen and (max-width: 480px) {
     header {
-      background-image: url(../assets/bgFor320.png);
+      background: #1a1a1a;
       height: 100vh;
-      background-size: cover;
     }
 
     .logo {
