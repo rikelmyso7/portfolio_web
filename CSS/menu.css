@@ -188,7 +188,7 @@ nav {
       opacity: 0;
     }
     .mobile-menu {
-      display: none;
+      display: block;
       cursor: pointer;
     }
     #teste {
