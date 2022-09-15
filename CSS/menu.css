@@ -36,8 +36,21 @@ nav {
 }
 
 /*Introduction*/
+
+.conteudo {
+  display: flex;
+  
+}
 .introduction {
+  width: 70%;
   padding: 7% 0 0 10%;
+}
+
+.models {
+  display: block;
+  width: 70%;
+  height: 80vh;
+  background-color: #fff401;
 }
 
 #teste {
@@ -144,6 +157,7 @@ nav {
   color: #fff;
   font-size: 48px;
 }
+
 
 /*Mobile Nav*/
 .mobile-menu {
