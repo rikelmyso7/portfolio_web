@@ -49,8 +49,10 @@ nav {
 .models {
   display: block;
   width: 70%;
-  height: 80vh;
-  background-color: #fff401;
+  height: 70vh;
+  background: url("/assets/room.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #teste {
@@ -214,6 +216,16 @@ nav {
     .apresentation {
       color: #fff;
     }
+    header {
+      background-image: url(../assets/bgFor320.png);
+      background-size: cover;
+      height: 100vh;
+    }
+    .conteudo {
+      display: block;
+      height: 100%;
+    }
+    
   }
 
   @media screen and (min-width: 475px) {
@@ -223,12 +235,15 @@ nav {
   }
 
   @media screen and (max-width: 480px) {
+    .conteudo {
+      display: flex;
+      margin-left: 100%;
+    }
     header {
       background-image: url(../assets/bgFor320.png);
       background-size: cover;
-      height: 100vh;
+      height: 100%;
     }
-
     .logo {
       font-family: 'Nunito', sans-serif;
       letter-spacing: 3px;
