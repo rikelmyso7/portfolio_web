@@ -50,7 +50,7 @@ nav {
   display: block;
   width: 70%;
   height: 70vh;
-  background: url("/assets/room.png");
+  background-image: url("https://media.giphy.com/media/1Jbi0EIFz37jlPmQY9/giphy-downsized-large.gif");
   background-repeat: no-repeat;
   background-size: contain;
 }
