@@ -185,6 +185,12 @@ nav {
     body {
       overflow-x: hidden;
     }
+    .introduction {
+      transform: translateY(40px);
+    }
+    .models {
+      transform: scale(0.9);
+    }
     .nav_links {
       position: absolute;
       top: 8vh;
@@ -222,23 +228,62 @@ nav {
       height: 100vh;
     }
     .conteudo {
-      display: block;
-      height: 100%;
+      display: flex;
     }
-    
+    header {
+      height: 80%;
+    }
   }
 
-  @media screen and (min-width: 475px) {
+  @media screen and (max-width: 700px) {
+    .conteudo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .models {
+      transform: scale(0.7) translateY(-50px);
+    }
+    header {
+      height: 100%;
+    }
+    .sobre, .lista_teste {
+      transform: scale(0.9);
+    }
+    .about {
+      height: 100vh;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
     br{
       display: none;
     }
+    .models {
+      transform: scale(0.9) translateY(-40px);
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    
   }
 
   @media screen and (max-width: 480px) {
-    .conteudo {
-      display: flex;
-      margin-left: 100%;
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
     }
+    body {
+      overflow-x: hidden;
+    }
+    .introduction {
+      transform: scale(0.9) translateY(40px);
+    }
+    .models {
+      transform: scale(0.9);
+    }
+    
     header {
       background-image: url(../assets/bgFor320.png);
       background-size: cover;
@@ -325,7 +370,7 @@ nav {
 /*About*/
 .about {
   width: 100%;
-  height: 115vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   align-items: center;
