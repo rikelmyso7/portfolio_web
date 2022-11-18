@@ -1,0 +1,26 @@
+var image_random = ['https://cdnb.artstation.com/p/assets/images/images/054/067/365/large/rikelmy-roberto-27.jpg?1663690072',
+'https://cdnb.artstation.com/p/assets/images/images/054/196/285/large/rikelmy-roberto-25.jpg?1663959463',
+'https://pbs.twimg.com/media/FYOqJGIX0AEMnHM?format=jpg&name=large',
+'https://pbs.twimg.com/media/FaPgHHcXgAMDJHY?format=jpg&name=medium',
+'https://pbs.twimg.com/media/FW3F-oaWYAIysrk?format=jpg&name=large',
+'https://pbs.twimg.com/media/FWELFA5XwAEFVKJ?format=jpg&name=large',
+'https://pbs.twimg.com/media/FXew0QIWYAIeLqi?format=jpg&name=large',
+'https://pbs.twimg.com/media/FXrP9J0UUAA9Gc4?format=jpg&name=large',
+'https://cdna.artstation.com/p/assets/images/images/045/428/560/large/rikelmy-roberto-art3.jpg?1642693071'
+];
+//Variavel para pegar o valor aleatorio
+const random = Math.floor(Math.random() * image_random.length);
+let count = 1;
+
+//Contador
+setInterval( function(){
+    nextImage();
+}, 2000)
+
+function nextImage() {
+    count++;
+    if(count > 1){
+    random, image_random[random];
+    }
+}
+
