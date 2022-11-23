@@ -1,8 +1,9 @@
+const conteudo = document.querySelector('.conteudo')
+
 const navSlide = () => {
   const burguer = document.querySelector('.mobile-menu')
   const nav = document.querySelector('.nav_links')
   const navLinks = document.querySelectorAll('.nav_links li');
-  const conteudo = document.querySelector('.conteudo')
 
   //Burguer Menu
   burguer.addEventListener('click', () => {
