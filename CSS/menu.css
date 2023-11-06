@@ -255,7 +255,7 @@ nav {
       transform: scale(0.9);
     }
     .about {
-      height: 100vh;
+      height: auto;
     }
   }
 
