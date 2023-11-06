@@ -384,6 +384,26 @@ nav {
   padding-top: 4%;
 }
 
+.container_information {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: 'Nunito';
+  font-weight: regular;
+}
+
+.container_inf {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
 .item-galeria {
   position: relative;
 }
@@ -446,6 +466,16 @@ nav {
   }
 }
 
+.finalize_section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 4%;
+}
+
 /*About*/
 .about_style {
   width: 100%;
@@ -456,7 +486,6 @@ nav {
 }
 
 .circle {
-  margin-top: 3%;
   background: conic-gradient(from 220deg, #ff3e9d 0deg, #6e55fd 90deg, #ff3e9d);
   border-radius: 100%;
   width: 185px;
@@ -469,7 +498,7 @@ nav {
 .image {
   border-radius: 100%;
   border: 7px solid ;
-  background-image: url(../assets/bgicon.png);
+  background-image: url(../assets/Me.png);
   width: 170px;
   height: 170px;
   background-size: cover;
