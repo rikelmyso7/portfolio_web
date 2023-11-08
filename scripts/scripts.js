@@ -83,3 +83,14 @@ window.onload = function() {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #6e55fd}";
   document.body.appendChild(css);
 };
+
+// Smooth anchor link
+document.querySelectorAll('a[href^="#about_style"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
