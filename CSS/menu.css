@@ -175,9 +175,6 @@ nav {
 }
 
 /*Mobile Menu*/
-@media screen and (max-width: 1000px){
-
-}
 @media screen and (max-width: 999px) {
     * {
       padding: 0;
@@ -350,6 +347,7 @@ nav {
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .nav_links {
