@@ -95,8 +95,8 @@ document.querySelectorAll('a[href^="#about_style"]').forEach(anchor => {
   });
 });
 
-function home() {
-  window.location.href = "https://rikelmyso7.github.io/portfolio/index.html";
+function models() {
+  window.location.replace("https://rikelmyso7.github.io/portfolio/index.html");
 }
 
 function models() {
