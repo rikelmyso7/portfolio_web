@@ -94,3 +94,7 @@ document.querySelectorAll('a[href^="#about_style"]').forEach(anchor => {
       });
   });
 });
+
+function redirect() {
+  window.location.href = "index.html";
+}
