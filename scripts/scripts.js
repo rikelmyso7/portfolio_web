@@ -100,5 +100,5 @@ function home() {
 }
 
 function models() {
-  window.location.href = "https://rikelmyso7.github.io/portfolio/models.html";
+  window.location.replace("https://rikelmyso7.github.io/portfolio/models.html");
 }
