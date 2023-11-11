@@ -222,6 +222,8 @@ body{
     body{
         background: #fff;
         overflow: hidden;
+        width: 100vh;
+        height: 100vh;
     }
       .container{
         position: absolute;
@@ -240,6 +242,8 @@ body{
       body{
         background: #fff;
         overflow: hidden;
+        width: 100vh;
+        height: 100vh;
     }
       .container{
         position: absolute;
