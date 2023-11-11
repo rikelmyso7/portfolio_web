@@ -221,7 +221,7 @@ body{
     }
     body{
         background: #fff;
-        overflow: hidden;
+        overflow-y: hidden;
     }
       .container{
         position: absolute;
