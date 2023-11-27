@@ -3,6 +3,7 @@
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portifolio</title>
         <link rel="stylesheet" href="CSS/menu.css"/>
+        <link rel="stylesheet" href="CSS/card_style"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap" rel="stylesheet">
@@ -23,7 +24,6 @@
                     <li><a href="https://linktr.ee/rikelmyso71" target="_blank">Contact</a></li>
                 </ul>
             </nav>
-            <script src="scripts/scripts.js"></script>
             <div class="conteudo">
             <div class='introduction'>
                 <h1 id='teste'>WEB, MOBILE</h1>
@@ -43,32 +43,75 @@
                 </ul></div>  
             </div>
         </header>
+
+        <div class="main flow">
+            <h1 class="main__heading">Choose the Category</h1>
+            <div class="main__cards cards">
+                <div class="cards__inner">
+                    <div class="cards__card card">
+                        <h2 class="card__heading">Pokemons</h2>
+                        <p class="card__price">BLENDER</p>
+                        <ul role="list" class="card__bullets flow">
+                            <li>3D Modeling</li>
+                            <li>Retopology</li>
+                        </ul>
+                        <a onclick="pokemon()" class="card__cta cta">View More</a>
+                    </div>
+        
+                    <div class="cards__card card">
+                        <h2 class="card__heading">Clothes</h2>
+                        <p class="card__price">MV & CLO3D</p>
+                        <ul role="list" class="card__bullets flow">
+                            <li>Using Marvelous Design</li>
+                            <li>Rendering and images in CLO3D</li>
+                            <li>Integration of UV Maps for others 3D Sofwares</li>
+                        </ul>
+                        <a onclick="clothes()" class="card__cta cta">View More</a>
+                    </div>
+        
+                    <div class="cards__card card">
+                        <h2 class="card__heading">Props and Others</h2>
+                        <p class="card__price">ALL</p>
+                        <ul role="list" class="card__bullets flow">
+                            <li>Swords and Weapons</li>
+                            <li>Full Rooms</li>
+                            <li>Personages</li>
+                            <li>Objects in general</li>
+                        </ul>
+                        <a onclick="props()" class="card__cta cta">View More</a>
+                    </div>
+                </div>
+        
+                <div class="overlay cards__inner"></div>
+            </div>
+        </div>
+
         <div class="container">
             <h1 id="title">Some of my 3d models</h1>
         <div class="container-galeria">
             <div class="item-galeria w-2 h-2">
-                <a onclick="models()"><img src="https://cdnb.artstation.com/p/assets/images/images/054/067/365/large/rikelmy-roberto-27.jpg?1663690072" id="1" alt="Air Jordan" class="img-galeria"/></a>
+                <a onclick="models()"><img src="/assets/grid/shoe_mobile.jpg" id="shoe" alt="Air Jordan" class="img-galeria"/></a>
             </div>
             <div class="item-galeria w-2 h-1">
-                <img src="https://cdnb.artstation.com/p/assets/images/images/054/196/285/large/rikelmy-roberto-25.jpg?1663959463" id="2" alt="Chandelure Pokemon" class="img-galeria"/>
+                <img src="/assets/grid/chastiefol.png" id="chastiefol" alt="Chastiefol" class="img-galeria"/>
             </div>
             <div class="item-galeria w-1 h-2">
-                <img src="https://pbs.twimg.com/media/FYOqJGIX0AEMnHM?format=jpg&name=large" id="3" alt="BB8" class="img-galeria"/>
+                <img src="/assets/grid/bb8.jpg" id="3" alt="BB8" class="img-galeria"/>
             </div>
             <div class="item-galeria w-1 h-1">
-                <img src="https://pbs.twimg.com/media/FaPgHHcXgAMDJHY?format=jpg&name=medium" id="4" alt="Stylized Room" class="img-galeria"/>
+                <img src="/assets/grid/room.jpg" id="4" alt="Stylized Room" class="img-galeria"/>
             </div>
             <div class="item-galeria w-2 h-2">
-                <img src="https://pbs.twimg.com/media/FW3F-oaWYAIysrk?format=jpg&name=large" id="5" alt="Magnemite" class="img-galeria"/>
+                <img src="/assets/grid/teste_nichirin.png" id="5" alt="Nichirin" class="img-galeria"/>
             </div>
             <div class="item-galeria w-1 h-2">
-                <img src="https://pbs.twimg.com/media/FWELFA5XwAEFVKJ?format=jpg&name=large" id="6" alt="Stylized MP9" class="img-galeria"/>
+                <img src="/assets/grid/window.jpg" id="6" alt="Stylized Window" class="img-galeria"/>
             </div>
             <div class="item-galeria w-1 h-1">
-                <img src="https://pbs.twimg.com/media/FXew0QIWYAIeLqi?format=jpg&name=large" id="7" alt="Arm" class="img-galeria"/>
+                <img src="/assets/grid/axe.jpg" id="7" alt="Axe" class="img-galeria"/>
             </div>
             <div class="item-galeria w-1 h-1">
-                <img src="https://pbs.twimg.com/media/FXrP9J0UUAA9Gc4?format=jpg&name=large" id="8" alt="Vorpal Bunny" class="img-galeria"/>
+                <img src="/assets/grid/weapon.jpg" id="8" alt="Vorpal Bunny" class="img-galeria"/>
             </div>
             <div class="item-galeria w-1 h-1">
                 <img src="https://cdna.artstation.com/p/assets/images/images/045/428/560/large/rikelmy-roberto-art3.jpg?1642693071" id="9" alt="Teclado" class="img-galeria"/>
@@ -132,5 +175,6 @@
                     <p>copyright &copy;2021. designed by <span>Rikelmy Roberto</span></p>
                 </div>
         </footer>
+        <script src="scripts/scripts.js"></script>
     </body>
 </html>
