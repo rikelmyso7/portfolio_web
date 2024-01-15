@@ -138,7 +138,7 @@ nav {
               0 0 100px #6e55fd;
 }
 
-.social_media_introduction .pinte:hover{
+.social_media_introduction .github:hover{
   background: #e60023;
   padding: 8px 10px;
   color: #fff;
@@ -678,7 +678,7 @@ footer {
               0 0 100px #6e55fd;
 }
 
-.social_media .pinte:hover{
+.social_media .github:hover{
   background: #e60023;
   padding: 8px 10px;
   color: #fff;
